@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url("fundo.png");
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}   
+
+.titulo{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: lightslategray;
+}
+
+
+.paragrafo-conteudo{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 17%;
+    margin-right: 17%;
+    display: flex;
+}    
+
+.texto-rodape{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}

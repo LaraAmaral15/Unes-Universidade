@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url("fundo2.png");
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    gap: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo{
+    font-weight: 600;
+    color: lightslategray;
+}
+
+.lista{
+    margin-left: 50px;
+}

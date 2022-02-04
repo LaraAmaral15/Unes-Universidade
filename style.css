@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.menu-cabecalho{
+    display: flex;
+    gap: 15px;
+}
+
+.menu-itens{
+    color: rgb(88, 84, 84);
+    font-size: 18px;
+}
+
+.menu-itens:hover{
+    color: lightslategray;
+}
+
+.linkAtivo{
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+.rodape{
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 20px;
+}
